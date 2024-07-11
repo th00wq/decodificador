@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+:root { 
+    --cor-pricipal: #e0dcdcfc;
+    --cor-primaria: #0A3871;
+    --cor-secundaria: #0a3871a8;
+    --cor-terciaria: #000000;
+    --cor-hover: #d1d4d5;
+}
+
+body { 
+ background-color: var(--cor-pricipal);
+}
+
+* { 
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+}
+
+.container__conteudo {
+      display: flex;
+      justify-content: space-between;
+      padding: 2%;
+      color: var(--cor-terciaria);
+}
+
+.container__conteudo img {
+    max-width: 70px;
+    max-height: 70px;
+    width: auto;
+    height: auto;
+}
+
+.container__input { 
+    display: flex;
+    justify-content: space-between;
+    padding: 2% 0% 0% 4%;
+}
+
+.container__input .input { 
+    width: 400px;
+    height: 330px;
+}
+
+#input-texto { 
+    width: 345px;
+    height: 330px;
+    font-size: 20px;
+    color: var(--cor-terciaria);
+    background: transparent;
+    box-shadow: none;
+    border: none;
+    resize: none;
+    outline: 0;
+    padding: 10px;
+    text-transform: uppercase;
+}
+
+#output {
+    display: grid;
+    border: 3px solid var(--cor-terciaria);
+    border-radius: 20px;
+    width: 350px;
+    height: 400px;
+    margin-right: 3%;
+}
+
+
+#output img {
+    max-width:300px;
+    max-height:300px;
+    width: auto;
+    height: auto;
+    margin-top: 4%;
+    margin-left: 7%;
+}
+
+#output h2 {
+    text-align: center;
+    font-size: 25px;
+    color: var(--cor-terciaria);
+}
+
+#output span {
+    font-size: 80%;
+    text-align: center;
+}
+
+.container__btn button { 
+    background-color: var(--cor-primaria);
+    border: 2px solid var(--cor-terciaria);
+    border-radius: 10px;
+    text-decoration: none;
+    color: var(--cor-pricipal);
+    width: 150px;
+    height: 50px;
+    margin-left: 4%;
+    cursor: pointer;
+}
+
+.btn-copiar {
+    border: 2px solid var(--cor-terciaria);
+    border-radius: 10px;
+    text-decoration: none;
+    color: var(--cor-primaria);
+    width: 150px;
+    height: 50px;
+    margin-bottom: 10%;
+    margin-left: 30%;
+    cursor: pointer;
+}
+
+.container__btn button:hover {
+    border: 2px solid var(--cor-terciaria);
+    background-color: var(--cor-secundaria);
+    transition: 0.5s all;
+ }
+
+ .rodape {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2%;
+    margin-top: 15px ;
+    background:var(--cor-secundaria) ;
+    color: var(--cor-terciaria);
+}
+
+.rodape h3 {
+    font-size: 16px;
+}
+
+.icons ion-icon{
+    width: 25px;
+    height: 25px;
+    color: var(--cor-terciaria);
+}
+
+.icons ion-icon:hover {
+    color: var(--cor-secundaria);
+}
