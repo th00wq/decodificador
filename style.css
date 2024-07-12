@@ -100,15 +100,27 @@ body {
 }
 
 .btn-copiar {
+    background-color: var(--cor-primaria);
     border: 2px solid var(--cor-terciaria);
     border-radius: 10px;
     text-decoration: none;
-    color: var(--cor-primaria);
+    color: var(--cor-pricipal);
     width: 150px;
     height: 50px;
     margin-bottom: 10%;
     margin-left: 30%;
     cursor: pointer;
+}
+
+#result {
+    margin-top: 2%;
+    border-radius: 10px;
+    resize: none;
+    border: none;
+    background-color: var(--cor-pricipal);
+    font-size: 24px;
+    color: var(--cor-terciaria);
+    outline: none;
 }
 
 .container__btn button:hover {
