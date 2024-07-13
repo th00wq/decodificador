@@ -13,3 +13,5 @@ Para a criptografia foi usado a lista de chaves abaixo 👇
 | u        | ufat          |
 
 Dessa forma a palavra "gato" se torna "gaitober" quando criptografada.
+
+Link : decodificador-sable.vercel.app
